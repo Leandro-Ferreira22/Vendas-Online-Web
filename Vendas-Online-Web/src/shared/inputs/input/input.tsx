@@ -11,8 +11,6 @@ const Input = ({ title, ...props }: InputProps) => {
             {title && <TitleInput>{title}</TitleInput>}
             <InputAntd {...props} />
         </BoxInput>
-    
-    
     );
 };
 
